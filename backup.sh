@@ -9,3 +9,4 @@ echo "Creating backup: $BACKUP_FILE"
 tar -czf "$BACKUP_FILE" "$SOURCE_DIR" --exclude="*.tar.gz"
 echo "Backup completed: $BACKUP_FILE"
 # This is lab assignment
+# Added rotation
